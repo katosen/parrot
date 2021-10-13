@@ -9,6 +9,7 @@ pull_request_rules:
               - "title~=Bump vue from"
               - "title~=Bump eslint-plugin-vue from"
               - "title~=Bump eslint from"
+              - "title~=Bump axios from"
     actions:
       merge:
         method: rebase
