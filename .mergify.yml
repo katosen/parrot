@@ -8,6 +8,7 @@ pull_request_rules:
               - "title~=Bump @vue/compiler-sfc from"
               - "title~=Bump vue from"
               - "title~=Bump eslint-plugin-vue from"
+              - "title~=Bump eslint from"
     actions:
       merge:
         method: rebase
