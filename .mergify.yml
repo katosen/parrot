@@ -4,12 +4,17 @@ pull_request_rules:
       - and:
           - "author=dependabot[bot]"
           - or:
-              - "title~=Bump core-js from"
-              - "title~=Bump @vue/compiler-sfc from"
-              - "title~=Bump vue from"
-              - "title~=Bump eslint-plugin-vue from"
-              - "title~=Bump eslint from"
               - "title~=Bump axios from"
+              - "title~=Bump cli-plugin-eslint from"
+              - "title~=Bump cli-plugin-babel from"
+              - "title~=Bump cli-service from"
+              - "title~=Bump core-js from"
+              - "title~=Bump eslint from"
+              - "title~=Bump eslint-plugin-vue from"
+              - "title~=Bump postcss from"
+              - "title~=Bump vue from"
+              - "title~=Bump vue-router from"
+              - "title~=Bump @vue/compiler-sfc from"
     actions:
       merge:
         method: rebase
