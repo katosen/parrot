@@ -12,7 +12,7 @@
     "core-js": "^3.20.2",
     "panoui": "^1.5.0",
     "plain-ui-vue": "^1.0.12",
-    "vue": "^3.2.26",
+    "vue": "^3.2.29",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
