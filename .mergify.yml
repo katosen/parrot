@@ -5,6 +5,7 @@ pull_request_rules:
           - "author=dependabot[bot]"
           - or:
               - "title~=Bump axios from"
+              - "title~=Bump core-js from"
     actions:
       merge:
         method: rebase
